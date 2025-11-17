@@ -57,11 +57,13 @@
             width: 200px;
             margin: 20px;
             border-radius: 10px;
+            margin-top:40px;
           }
           .iklan img {
             width: 200px;
             border-radius:10px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-top:40px;
           }
            .category{
             width: 60px;
@@ -75,11 +77,25 @@
             transform: scale(1.5);
             transition:0,5s;
           }
-          .miaw{
-            text-align:center;
-            background-color: rgba(144, 189, 189, 1);
-            border-radius:20px;
-            font-family: "Georgia", serif;
-            color:rgba(126, 112, 86, 1);
+          nav{
+            background-color:  rgba(72, 90, 90, 1);;
+            padding: 10px;
+            position: fixed;
+            width:100%;
           }
-          
+          ul{
+            color:white;
+            list-style: none;
+            display: flex;
+            gap: 20px;
+          }
+          body{
+            margin: 0;
+          }
+          html{
+            scroll-behavior: smooth;
+          }
+          ul a{
+            color: white;
+            text-decoration: none;
+          }
