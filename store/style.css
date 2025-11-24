@@ -13,6 +13,7 @@
             border-radius: 10px;
             transition: 0.5s;
             background-color: rgba(118, 156, 156, 1);
+          
           }
           
           
@@ -57,7 +58,7 @@
             width: 200px;
             margin: 20px;
             border-radius: 10px;
-            margin-top:40px;
+            margin-top:60px;
           }
           .iklan img {
             width: 200px;
@@ -79,9 +80,10 @@
           }
           nav{
             background-color:  rgba(72, 90, 90, 1);;
-            padding: 10px;
+            padding: 4px;
             position: fixed;
             width:100%;
+            z-index:999;
           }
           ul{
             color:white;
@@ -98,4 +100,20 @@
           ul a{
             color: white;
             text-decoration: none;
+            margin-top:9.3px;
+          }
+          .rating span{
+            color: maroon;
+          }
+          span{
+          padding-left: 10px;
+          }
+          .profil{
+            width:40px;
+            height:35px;
+            border-radius:50%;
+            margin-left:80%;
+          }
+          .profil:hover{
+            transform: scale(1.4);
           }
